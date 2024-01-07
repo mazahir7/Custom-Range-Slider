@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Range Slider</title>
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>Custom Range Slider</h2>
+  <div class="user-range-container">
+    <div class="user-range">
+      <input type="number" id="min" min="0" value="0" placeholder="min-value">
+      <input type="number" id="max" min="0" value="100" placeholder="min-value">
+    </div>
+    <button id="btn">Change Range</button>
+  </div>
+  <div class="range-container">
+    <input type="range" id="range" min="0" max="100" value="0">
+    <label for="range">0</label>
+  </div>
+
+  <script src=" script.js"></script>
+</body>
+
+</html>
